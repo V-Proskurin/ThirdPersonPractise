@@ -355,7 +355,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
-  forceMagnitude: 2
+  forceMagnitude: 1
 --- !u!1 &124554700588431576
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,9 +10,8 @@ public class NetMan : NetworkManager
 
     public override void OnStartServer()
     {
-        ball = Instantiate(spawnPrefabs.Find(prefab => prefab.name == "Ball"));
-        NetworkServer.Spawn(ball);
-        
+        ball = Instantiate(spawnPrefabs.Find(prefab => prefab.name == "Soccer Ball"));
+        NetworkServer.Spawn(ball);        
 
     }
 
